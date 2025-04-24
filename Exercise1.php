@@ -56,3 +56,8 @@ echo "=== Steps to Install XAMPP & PHP ===\n\n" .
 
     
 
+
+    echo "Hi iam Ahmed ";
+    echo "How Are you?";
+
+        

@@ -62,3 +62,30 @@ echo "=== Steps to Install XAMPP & PHP ===\n\n" .
     echo "Hi iam Ahmed ";
     echo "How Are you?";
 
+
+
+
+    
+    $string = "Hello, I am a string";
+    echo $string . " is " . gettype($string);
+    echo "\n";
+
+    $float = 1.1;
+    echo $float . " is " . gettype($float);
+    echo "\n";
+
+    $bool = true;
+    echo $bool . " is " . gettype($bool);
+    echo "\n";
+
+    $array = [1, 2, 3, 'a', 'b', 'c'];
+    print_r($array);
+    echo "\n";
+
+    $null = null;
+    echo $null . " is " . gettype($null);
+    echo "\n";
+
+    $object = new stdClass();
+        echo $object . " is " . gettype($object);
+        echo "\n";

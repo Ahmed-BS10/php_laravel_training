@@ -1,6 +1,6 @@
 <?php
 
-// Installation steps for PHP 
+// Installation steps for PHP
 
 echo "=== Steps to Install XAMPP & PHP ===\n\n" .
 
@@ -44,20 +44,21 @@ echo "=== Steps to Install XAMPP & PHP ===\n\n" .
 
     $array = [1, 2, 3, 'a', 'b', 'c'];
     print_r($array);
-    echo "\n";  
+    echo "\n";
 
     $null = null;
     echo $null . " is " . gettype($null);
     echo "\n";
 
     $object = new stdClass();
-    echo $object . " is " . gettype($object);
-    echo "\n";
-
-    
+        echo $object . " is " . gettype($object);
+        echo "\n";
 
 
+
+
+
+    echo "=== PHP Syntax ===\n\n";
     echo "Hi iam Ahmed ";
     echo "How Are you?";
 
-        
